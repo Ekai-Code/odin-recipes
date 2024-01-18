@@ -1,0 +1,123 @@
+ .main-body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: lightcyan;
+}
+.main{
+    background-color: #65add6;
+    width: fit-content;
+    margin: 150px auto;
+    padding: 30px;
+    
+
+}
+#main-container {
+    margin: 5px auto;
+    list-style: none;
+} 
+
+.main-title{
+    display: inline;
+    font-size: 4em;
+    background-color: #1a74a8;
+    color: #fff;
+    margin-top: 5%;
+   
+}
+
+.main-list{
+    border: 2px solid rgb(59, 55, 55);
+    border-radius: 15px;
+    font-size: 32px;
+    display: table;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.samelink{
+    border: 2px solid rgb(59, 55, 55);
+    border-radius: 15px;
+    font-size: 30px;
+    display: table;
+    margin-top: none;
+    margin-left: 5%;
+    overflow: hidden; 
+}
+a {
+    color: #000000;
+  }
+a:hover{
+    background-color: rgb(219, 252, 99);
+    text-decoration: none;
+    
+}
+
+.title-container{
+    background-color: #e7d37b;
+    width: 25%;
+    padding: 3.5em;
+    margin: 0 auto;
+    border: 9px solid rgba(153, 92, 92, 0.747);
+    float:left;
+}
+
+.recipe-title{
+    font-size: 5em;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.image-container{
+    float: right;
+}
+
+#imagee{
+    margin-top: 10px;
+    border-radius: 30%;
+}
+
+.info-page{
+    background-color: #e7d37b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 24px auto;
+    width: 82%;
+    border: 9px solid rgba(153, 92, 92, 0.747);
+    
+}
+
+h2{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 32%;
+    font-size: 2em;
+    border: 3px solid rgba(153, 92, 92, 0.747);
+    border-radius: 15px;
+}
+#des{
+    width: 16.2%;
+}
+
+#rec{
+    width: 11%;
+}
+
+#steps{
+    width: 8%;
+}
+
+.details{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 400px;
+}
+
+ul{
+    margin-left: 400px; 
+}
+
+ol{
+    margin-left: 400px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
