@@ -1,123 +1,140 @@
- .main-body{
-    margin: 0;
+*{
+    outline: 2px solid red;
     padding: 0;
-    text-align: center;
+    margin: 0;
     font-family: sans-serif;
-    background-color: lightcyan;
-}
-.main{
-    background-color: #65add6;
-    width: fit-content;
-    margin: 150px auto;
-    padding: 30px;
+    background-color: white;
     
-
-}
-#main-container {
-    margin: 5px auto;
-    list-style: none;
-} 
-
-.main-title{
-    display: inline;
-    font-size: 4em;
-    background-color: #1a74a8;
-    color: #fff;
-    margin-top: 5%;
-   
-}
-
-.main-list{
-    border: 2px solid rgb(59, 55, 55);
-    border-radius: 15px;
-    font-size: 32px;
-    display: table;
-    margin: 10px;
-    text-align: center;
-    overflow: hidden;
+    }
     
-}
-.samelink{
-    border: 2px solid rgb(59, 55, 55);
-    border-radius: 15px;
-    font-size: 30px;
-    display: table;
-    margin-top: none;
-    margin-left: 5%;
-    overflow: hidden; 
-}
-a {
-    color: #000000;
+    header{
+    padding:20px;
+    max-width:400px;
+    margin:auto;
+    margin-bottom:10px;
+    background-color:lightblue;
+    
+    }
+    header h1{
+    font-size:3em;
+    padding: 10px;
+    text-align:center;
+    background-color:lightgreen;
+    border:2px solid black;
+    border-radius: 30px;
+    
+    }
+    
+    body{
+    max-width: 500px;
+      margin: auto;
+      background: #e7d37b;
+      padding: 10px;
+      border:1px solid black;
+      margin-top: 50px;
+      
+    }
+    
+    
+    
+    #main-container {
+      text-decoration: none;
+      margin: auto;
+      padding: 50px; 
+      border-top: 5px solid rgb(88, 84, 84);
+      align-items: center; 
+      background: #e7d37b;
+      
+    }
+    
+    .main-list {
+      width: 400px;
+      height: 100px;
+      padding: 20px; 
+      border: 1px solid black;
+      box-sizing: border-box;
+      border-radius: 50px;
+      text-align: center;
+      margin: 20px 0; 
+      list-style-type:none;
+      background:lightgreen;
+      
+    }
+    
+    .main-list a {
+      font-size: 35px;
+      padding:10px;
+      display:block;
+      color:black;
+      text-decoration:none;
+      background:lightgreen;
+    
+    }
+    
+    .main-list a:hover{
+      color: green;
+    }
+
+   .recipe-title{
+      padding: 10px;
+      text-align: center;
+      background-color: lightblue;
+      margin-bottom: 30px;
+    }
+
+    .title-container{
+      background: #e7d37b;
+      padding: 30px;
+    }
+    #imagee{
+      border-radius: 150px;
+      display: block;
+      max-width: 500px;
+      margin: auto;
+      box-sizing: border-box;
+     
+    }
+
+    .info-page{
+      margin-top: 30px;
+    }
+
+    #des, #rec, #steps{
+      background-color: lightblue;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      padding: 5px;
+      
+    }
+
+    .details{
+      font-size: 20px;
+      background-color: #e7d37b;
+      padding: 10px;
+      border: 1px solid black;
+      
+    }
+   ul{font-size: 20px;
+    background-color: #e7d37b;
+    border: 1px solid black;
+    list-style-type:none;
+    
   }
-a:hover{
-    background-color: rgb(219, 252, 99);
-    text-decoration: none;
-    
-}
-
-.title-container{
-    background-color: #e7d37b;
-    width: 25%;
-    padding: 3.5em;
-    margin: 0 auto;
-    border: 9px solid rgba(153, 92, 92, 0.747);
-    float:left;
-}
-
-.recipe-title{
-    font-size: 5em;
-    margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.image-container{
-    float: right;
-}
-
-#imagee{
-    margin-top: 10px;
-    border-radius: 30%;
-}
-
-.info-page{
-    background-color: #e7d37b;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 24px auto;
-    width: 82%;
-    border: 9px solid rgba(153, 92, 92, 0.747);
-    
-}
-
-h2{
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 32%;
-    font-size: 2em;
-    border: 3px solid rgba(153, 92, 92, 0.747);
-    border-radius: 15px;
-}
-#des{
-    width: 16.2%;
-}
-
-#rec{
-    width: 11%;
-}
-
-#steps{
-    width: 8%;
-}
-
-.details{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 400px;
-}
-
-ul{
-    margin-left: 400px; 
-}
-
+  li{
+    background: #e7d37b;
+  }
 ol{
-    margin-left: 400px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  display: inline;
+  list-style-type:none;
+}
+
+.samelink a{
+  
+  font-size: 35px;
+      padding:10px;
+      display:block;
+      color:black;
+      text-decoration:none;
+      background:lightgreen;
 }
